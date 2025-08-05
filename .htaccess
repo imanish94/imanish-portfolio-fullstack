@@ -1,0 +1,5 @@
+# In .htaccess
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^imanish\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^mail\.imanish\.in$
+RewriteRule ^(.*)$ https://www.imanish.in/$1 [R=301,L]
