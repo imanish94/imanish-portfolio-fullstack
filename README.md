@@ -1,46 +1,92 @@
-# imanish-portfolio-fullstack
+# Manish Sharma - Portfolio Website
 
-Welcome to my personal fullstack developer portfolio repository.
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS showcasing my skills, experience, and projects as a Senior Full Stack Developer.
 
-This project showcases my skills, experience, and projects as a full stack developer with expertise in building modern, responsive, and high-performance web applications.
+## 🚀 Live Demo
 
-🌐 **Live Site**: [https://www.imanish.in](https://www.imanish.in)
+[View Portfolio](https://imanish.in)
 
----
+## ✨ Features
 
-## 🚀 Tech Stack
+- Modern, responsive design with dark/light theme
+- Interactive animations with Framer Motion
+- Functional contact form with EmailJS
+- Project showcase with filtering
+- Experience timeline
+- Tech stack visualization
+- SEO optimized
 
-- **Frontend**: React.js / Next.js / Tailwind CSS
-- **Backend**: Node.js / Express / PHP (as needed)
-- **Deployment**: Vercel / GitHub / cPanel
-- **Other Tools**: Git, Figma, EmailJS, REST APIs, i18next for multilingual support
+## 🛠️ Tech Stack
 
----
+- **Frontend**: React 18, TypeScript, Tailwind CSS, Framer Motion
+- **Forms**: React Hook Form, Yup validation
+- **Email**: EmailJS
+- **Build Tool**: Vite
+- **Icons**: Lucide React
 
-## 🎯 Key Features
-
-- Responsive design for all devices
-- Smooth scroll navigation and animations
-- Multilingual support (English + Hindi)
-- Contact form with dynamic email functionality
-- Professional project showcase section
-- About me, services, testimonials, and more
-
----
-
-## 📦 Getting Started (Development Setup)
-
-To run this project locally:
+## 📦 Installation
 
 ```bash
-# Clone the repo
-git clone https://github.com/imanish94/imanish-portfolio-fullstack.git
-
-# Move into the project directory
-cd imanish-portfolio-fullstack
+# Clone the repository
+git clone https://github.com/imanish94/portfolio.git
+cd portfolio
 
 # Install dependencies
 npm install
 
-# Run the development server
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+```
+
+## 🎨 Customization
+
+1. Update personal information in component files
+2. Replace project images in `src/images/`
+3. Configure EmailJS in `src/config/emailjs.ts`
+4. Customize styling in `tailwind.config.js`
+
+## 📧 Contact Form Setup
+
+1. Create EmailJS account at [emailjs.com](https://www.emailjs.com/)
+2. Add email service and create templates
+3. Update configuration in `src/config/emailjs.ts`
+4. See `EMAILJS_SETUP.md` for detailed instructions
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+- Connect GitHub repository to Vercel
+- Build Command: `npm run build`
+- Output Directory: `dist`
+
+### Netlify
+- Connect repository to Netlify
+- Build Command: `npm run build`
+- Publish Directory: `dist`
+
+## 📱 Sections
+
+- **Hero**: Animated introduction with typing effect
+- **About**: Personal journey and values
+- **Tech Stack**: Skills with progress bars
+- **Projects**: Filterable project gallery
+- **Experience**: Work history timeline
+- **Contact**: Functional contact form
+
+## 👨‍💻 Author
+
+**Manish Sharma**
+- Email: imanish.indev@gmail.com
+- LinkedIn: [linkedin.com/in/manish94](https://www.linkedin.com/in/manish94)
+- GitHub: [github.com/imanish94](https://github.com/imanish94)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ using React, TypeScript, and Tailwind CSS**
